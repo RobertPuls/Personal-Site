@@ -673,27 +673,26 @@
 }
 
 #tree2 {
-  position: relative;
   left: 26%;
 }
 
 #tree3 {
-  position: relative;
   left: 34%;
 }
 
 #tree4 {
-  position: relative;
   left: 60%;
 }
 
 
 #tree-1 {
-  position: relative;
   right: 14%;
 }
 
 #tree-2 {
-  position: relative;
   right: 24%;
+}
+
+.pos {
+  position: relative;
 }
