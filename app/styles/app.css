@@ -696,3 +696,158 @@
 .pos {
   position: relative;
 }
+
+
+.circle {
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  top: 100vh;
+  margin-left: -150px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.flame,
+.flame:after,
+.flame:before {
+  border-radius: 0 50% 50% 50%;
+}
+
+.flame {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  z-index: 4;
+  transform: rotate(45deg);
+  width: 100px;
+  height: 100px;
+  background-color: #cd333f;
+  animation: flame 500ms ease-in-out infinite alternate;
+}
+.flame:after, .flame:before {
+  position: absolute;
+  content: "";
+  animation: Innerflame 500ms ease-in-out infinite alternate;
+}
+.flame:before {
+  background-color: orange;
+  width: 75px;
+  height: 75px;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -30px;
+  animation-direction: alternate-reverse;
+}
+.flame:after {
+  background-color: #edc951;
+  width: 50px;
+  height: 50px;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -10px;
+  animation-duration: 450ms;
+}
+
+.glow {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 20px;
+  margin-left: -100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: .1;
+  animation: glow 500ms ease-in-out infinite alternate;
+}
+
+.log {
+  z-index: 3;
+  position: absolute;
+  bottom: 75px;
+  width: 150px;
+  height: 30px;
+  background-color: #352b21;
+  border-radius: 0 10px 10px 0;
+}
+.log:before, .log:after {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+}
+.log:after {
+  left: -9px;
+  bottom: 7px;
+  width: 10px;
+  height: 10px;
+  border: 3px outset #b38054;
+}
+.log:before {
+  left: -15px;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #d7a477;
+}
+.log.log-1 {
+  left: 50px;
+  transform: perspective(400px) rotateY(45deg);
+}
+.log.log-2 {
+  right: 50px;
+  transform: perspective(400px) rotateY(-45deg) scale(-1, 1);
+}
+.log.log-3 {
+  width: 0;
+  height: 30px;
+  bottom: 65px;
+  left: 150px;
+}
+
+.shadow {
+  position: absolute;
+  left: 50px;
+  bottom: 55px;
+  width: 200px;
+  height: 50px;
+  z-index: 2;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: .1;
+}
+
+@keyframes flame {
+  from {
+    transform: scale(1) rotate(40deg);
+  }
+  to {
+    transform: scale(1.1) rotate(50deg);
+  }
+}
+@keyframes Innerflame {
+  from {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
+@keyframes glow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+body {
+  color: rgb(22, 64, 126);
+}
