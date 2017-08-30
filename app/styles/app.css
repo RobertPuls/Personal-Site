@@ -486,55 +486,55 @@
 }
 .tree__item_10 .tree__stamb:before {
   border-left: 10px solid transparent;
-  border-bottom: 250px solid rgb(82, 76, 94);
+  border-bottom: 250px solid #808080;
 }
 .tree__item_10 .tree__stamb:after {
   border-right: 10px solid transparent;
-  border-bottom: 250px solid rgb(61, 46, 79);
+  border-bottom: 250px solid #636363;
 }
 .tree__item_10 .tree__branch_1 {
   height: 60px;
 }
 .tree__item_10 .tree__branch_1:before {
   border-left: 24px solid transparent;
-  border-bottom: 75px solid rgb(237, 54, 171);
+  border-bottom: 75px solid rgb(73, 57, 85);
 }
 .tree__item_10 .tree__branch_1:after {
   border-right: 24px solid transparent;
-  border-bottom: 75px solid rgb(168, 63, 105);
+  border-bottom: 75px solid rgb(42, 34, 55);
 }
 .tree__item_10 .tree__branch_2 {
   height: 60px;
 }
 .tree__item_10 .tree__branch_2:before {
   border-left: 32px solid transparent;
-  border-bottom: 100px solid rgb(237, 54, 171);
+  border-bottom: 100px solid rgb(73, 57, 85);
 }
 .tree__item_10 .tree__branch_2:after {
   border-right: 32px solid transparent;
-  border-bottom: 100px solid rgb(168, 63, 105);
+  border-bottom: 100px solid rgb(42, 34, 55);
 }
 .tree__item_10 .tree__branch_3 {
   height: 60px;
 }
 .tree__item_10 .tree__branch_3:before {
   border-left: 40px solid transparent;
-  border-bottom: 125px solid rgb(237, 54, 171);
+  border-bottom: 125px solid rgb(73, 57, 85);
 }
 .tree__item_10 .tree__branch_3:after {
   border-right: 40px solid transparent;
-  border-bottom: 125px solid rgb(168, 63, 105);
+  border-bottom: 125px solid rgb(42, 34, 55);
 }
 .tree__item_10 .tree__branch_4 {
   height: 60px;
 }
 .tree__item_10 .tree__branch_4:before {
   border-left: 48px solid transparent;
-  border-bottom: 150px solid rgb(237, 54, 171); /*lighter color rgb(46, 145, 133)*/
+  border-bottom: 150px solid rgb(73, 57, 85); /*lighter color rgb(46, 145, 133)*/
 }
 .tree__item_10 .tree__branch_4:after {
   border-right: 48px solid transparent;
-  border-bottom: 150px solid rgb(168, 63, 105);
+  border-bottom: 150px solid rgb(42, 34, 55);
 }
 
 .tree__item_11 {
@@ -703,7 +703,7 @@
   position: absolute;
   left: 50%;
   top: 100vh;
-  margin-left: -150px;
+  margin-left: 10%;
   width: 300px;
   height: 300px;
   overflow: hidden;
@@ -849,5 +849,5 @@
 }
 
 body {
-  color: rgb(22, 64, 126);
+  background-color: rgb(46, 145, 133); /*rgb(127, 196, 191)*/
 }
