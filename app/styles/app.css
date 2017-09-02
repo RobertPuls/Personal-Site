@@ -5,6 +5,7 @@
     border-left: 300px solid transparent;
     border-right: 300px solid transparent;
     border-bottom: 360px solid rgb(43, 201, 157);
+    border-bottom: 360px solid #7ac1e4;
     z-index: 1;
 }
 .mountain-two {
@@ -850,4 +851,45 @@
 
 body {
   background-color: rgb(46, 145, 133); /*rgb(127, 196, 191)*/
+  background-color: rgb(43, 201, 157);
+  overflow-x: hidden;
+}
+
+#main-board {
+  border-radius: 4px;
+  text-align: center;
+  /*border-top: saddlebrown solid 4px;
+  border-left: saddlebrown solid 4px;
+  border-right: saddlebrown solid 4px;*/
+  margin-top: -10%;
+  margin-left: 10%;
+  left: 10%;
+  width: 300px;
+  height: 400px;
+
+  /*background-image: url(http://acmchome.com/wp-content/uploads/2016/09/httppreviewcf.turbosquid.comPreview20140801__18_23_50planken.jpge3fd952d-a788-4fbf-8518-8f95d6e11080Larger.jpg);
+  background-size: contain;*/
+  /*background-image: url(http://www.howie23.org/pics/seamless-wood-grain-texture.jpg);*/
+}
+
+.notice-board {
+  z-index: 11;
+  position: absolute;
+  left: 10%;
+}
+
+.skill {
+  font-family:"Century Gothic", "HelveticaNeueLT Pro 45 Lt", sans-serif;
+  /*text-shadow: 0px 1px 0px rgba(255,255,255,.5);*/
+  color: rgb(38, 44, 47);
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #d7a477;
+  padding: 2%;
+  margin: 0;
+  border-radius: 4px;
+}
+
+.skill:nth-child(even) {
+  background-color: #b38054;
 }
