@@ -267,8 +267,8 @@
 }
 
 .tree__item_1 {
-  left: 180px;
-  bottom: -9px;
+  left: 10vw;
+  bottom: -16px;
   z-index: 10;
 }
 
@@ -343,7 +343,7 @@
 }
 
 .tree__item_2 {
-  left: 227px;
+  left: 20vw;
   bottom: -10px;
   z-index: 10;
 }
@@ -419,8 +419,8 @@
 }
 
 .tree__item_5 {
-  left: 20vw;
-  bottom: -12px;
+  left: 15vw;
+  bottom: -3px;
   z-index: 5;
 }
 
@@ -497,10 +497,8 @@
 }
 
 .tree__item_6 {
-  left: 274px;
-  bottom: -15px;
-  -webkit-animation: growup 3.2s 0s linear;
-  animation: growup 3.2s 0s linear;
+  left: 24vw;
+  bottom: -3px;
   z-index: 4;
 }
 
@@ -575,8 +573,8 @@
 }
 
 .tree__item_10 {
-  left: 250px;
-  bottom: -10px;
+  left: 12.8vw;
+  bottom: 0px;
   z-index: 1;
 }
 
@@ -652,8 +650,8 @@
 }
 
 .tree__item_11 {
-  left: 311px;
-  bottom: -10px;
+  left: 18.5vw;
+  bottom: 2px;
   z-index: 1;
 }
 
@@ -728,8 +726,8 @@
 }
 
 .tree__item_12 {
-  left: 370px;
-  bottom: -10px;
+  left: 28vw;
+  bottom: 4px;
   -webkit-animation: growup 3.2s 0s linear;
   animation: growup 3.2s 0s linear;
   z-index: 1;
@@ -740,98 +738,107 @@
 }
 
 .tree__item_12 .tree__stamb:before {
-  border-left: 10px solid transparent;
-  border-bottom: 250px solid rgb(80, 69, 99);
+  border-left: 1vw solid transparent;
+  border-bottom: 24vw solid rgb(80, 69, 99);
 }
 
 .tree__item_12 .tree__stamb:after {
-  border-right: 10px solid transparent;
-  border-bottom: 250px solid rgb(61, 46, 79);
+  border-right: 1vw solid transparent;
+  border-bottom: 24vw solid rgb(61, 46, 79);
 }
 
 .tree__item_12 .tree__branch_1 {
-  height: 55px;
+  height: 7vh;
 }
 
 .tree__item_12 .tree__branch_1:before {
-  border-left: 24px solid transparent;
-  border-bottom: 75px solid rgb(224, 65, 166);
+  border-left: 3.5vw solid transparent;
+  border-bottom: 10.5vw solid rgb(224, 65, 166);
 }
 
 .tree__item_12 .tree__branch_1:after {
-  border-right: 24px solid transparent;
-  border-bottom: 75px solid rgb(162, 23, 79);
+  border-right: 3.5vw solid transparent;
+  border-bottom: 10.5vw solid rgb(162, 23, 79);
 }
 
 .tree__item_12 .tree__branch_2 {
-  height: 55px;
+  height: 7vh;
 }
 
 .tree__item_12 .tree__branch_2:before {
-  border-left: 32px solid transparent;
-  border-bottom: 100px solid rgb(224, 65, 166);
+  border-left: 4vw solid transparent;
+  border-bottom: 11vw solid rgb(224, 65, 166);
 }
 
 .tree__item_12 .tree__branch_2:after {
-  border-right: 32px solid transparent;
-  border-bottom: 100px solid rgb(162, 23, 79);
+  border-right: 4vw solid transparent;
+  border-bottom: 11vw solid rgb(162, 23, 79);
 }
 
 .tree__item_12 .tree__branch_3 {
-  height: 55px;
+  height: 7vh;
 }
 
 .tree__item_12 .tree__branch_3:before {
-  border-left: 40px solid transparent;
-  border-bottom: 125px solid rgb(224, 65, 166);
+  border-left: 4.5vw solid transparent;
+  border-bottom: 11.5vw solid rgb(224, 65, 166);
 }
 
 .tree__item_12 .tree__branch_3:after {
-  border-right: 40px solid transparent;
-  border-bottom: 125px solid rgb(162, 23, 79);
+  border-right: 4.5vw solid transparent;
+  border-bottom: 11.5vw solid rgb(162, 23, 79);
 }
 
 .tree__item_12 .tree__branch_4 {
-  height: 55px;
+  height: 7vw;
 }
 
 .tree__item_12 .tree__branch_4:before {
-  border-left: 48px solid transparent;
-  border-bottom: 150px solid rgb(224, 65, 166);
+  border-left: 5vw solid transparent;
+  border-bottom: 12vw solid rgb(224, 65, 166);
 }
 
 .tree__item_12 .tree__branch_4:after {
-  border-right: 48px solid transparent;
-  border-bottom: 150px solid rgb(162, 23, 79);
+  border-right: 5vw solid transparent;
+  border-bottom: 12vw solid rgb(162, 23, 79);
 }
 
 #trees {
   padding-top: 10%;
 }
 
+#tree0 {
+  position: relative;
+  left: 4.5%;
+}
+
+#tree0:nth-child(2) {
+  display: none;
+}
+
 #tree1 {
   position: relative;
-  left: 14%;
+  left: 16%;
 }
 
 #tree2 {
-  left: 26%;
+  left: 27.5%;
 }
 
 #tree3 {
-  left: 34%;
+  left: 40%;
 }
 
 #tree4 {
-  left: 60%;
+  left: 65%;
 }
 
 #tree-1 {
-  right: 14%;
+  right: 12%;
 }
 
 #tree-2 {
-  right: 24%;
+  right: 20%;
 }
 
 .pos {
@@ -841,8 +848,8 @@
 .circle {
   z-index: 10;
   position: absolute;
-  left: 50%;
-  top: 100vh;
+  left: 5%;
+  top: 80vh;
   margin-left: 10%;
   width: 300px;
   height: 300px;
@@ -972,10 +979,10 @@
 
 .shadow1 {
   position: absolute;
-  left: 0px;
-  bottom: -155px;
-  width: 100vw;
-  height: 50px;
+  left: -4vw;
+  bottom: -24vh;
+  width: 105vw;
+  height: 10vh;
   z-index: 0;
   border-radius: 50%;
   background-color: #000;
@@ -1021,7 +1028,7 @@ body {
 #main-board {
   border-radius: 4px;
   text-align: center;
-  margin-top: -25%;
+  margin-top: 70%;
   margin-left: 10%;
   left: 10%;
   width: 300px;
@@ -1115,15 +1122,16 @@ body {
 }
 
 #tent {
+  z-index: 11;
   display: flex;
   position: absolute;
-  right: 5%;
-  bottom: -90%;
+  right: 10%;
+  top: 40vh;
 }
 
 .side {
-  width: 450px;
-  height: 300px;
+  width: 40vw;
+  height: 25vw;
   transform: skew(20deg);
   background: rgb(236, 189, 181);
   background: rgb(97, 61, 57);
@@ -1132,13 +1140,13 @@ body {
 .front {
   display: flex;
   justify-content: center;
-  margin-right: -8%;
+  margin-right: -8.1%;
   width: 0;
   height: 0;
-  border-left: 108px solid transparent;
-  border-right: 108px solid transparent;
-  border-bottom: 300px solid rgb(232, 221, 201);
-  border-bottom: 300px solid rgb(134, 108, 107);
+  border-left: 7.1vw solid transparent;
+  border-right: 9.1vw solid transparent;
+  border-bottom: 25vw solid rgb(232, 221, 201);
+  border-bottom: 25vw solid rgb(134, 108, 107);
 }
 
 .tent {
@@ -1148,12 +1156,12 @@ body {
 
 .door {
   position: relative;
-  top: 93px;
-  margin-right: 4%;
-  border-left: 69px solid transparent;
-  border-right: 69px solid transparent;
-  border-bottom: 207px solid rgb(237, 147, 145);
-  border-bottom: 207px solid rgb(50, 50, 50);
+  top: 9.7vh;
+  right: -0.5vw;
+  border-left: 3.5vw solid transparent;
+  border-right: 4.1vw solid transparent;
+  border-bottom: 20vw solid rgb(237, 147, 145);
+  border-bottom: 20vw solid rgb(50, 50, 50);
 }
 
 .sun {
@@ -1213,4 +1221,13 @@ body {
 
 .sun:nth-child(12) {
   transform: rotate(360deg);
+}
+
+.sign-parallax {
+  z-index: 11;
+  margin-top: -20%;
+}
+
+.camp {
+  margin-top: -50%;
 }

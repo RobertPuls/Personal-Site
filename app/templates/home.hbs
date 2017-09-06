@@ -45,11 +45,10 @@
   {{!-- {{/parallax-content}} --}}
 </section>
 
-<section>
+{{#parallax-content speed=0.1 height=1000 class="sign-parallax"}}
   {{skill-board model=model}}
   {{camp-fire}}
-</section>
-
-<section id="tent">
-  {{project-tent class="tent"}}
-</section>
+  <section id="tent">
+    {{project-tent class="tent"}}
+  </section>
+{{/parallax-content}}
