@@ -1,4 +1,8 @@
 <section id="mountain">
+  {{#parallax-content speed=-0.5 height=650}}
+    {{parallax-sun}}
+  {{/parallax-content}}
+  {{#parallax-content speed=-0.1 height=990}}
   <div id="slide1" class="slide">
     <div class="mountain">
       {{mountain-top}}
@@ -25,9 +29,11 @@
     </div>
   </div>
   <div class="cloud"></div>
+  {{/parallax-content}}
 </section>
 
 <section id="trees">
+  {{!-- {{#parallax-content speed=0.2 height=650}} --}}
   <div class="shadow1"></div>
   {{tree-section id="tree-1" class="pos"}}
   {{tree-section id="tree-2" class="pos"}}
@@ -35,10 +41,15 @@
   {{tree-section id="tree1" class="pos"}}
   {{tree-section id="tree2" class="pos"}}
   {{tree-section id="tree3" class="pos"}}
-  {{tree-section id="tree4" class="pos" }}
+  {{tree-section id="tree4" class="pos"}}
+  {{!-- {{/parallax-content}} --}}
 </section>
 
 <section>
   {{skill-board model=model}}
   {{camp-fire}}
+</section>
+
+<section id="tent">
+  {{project-tent class="tent"}}
 </section>

@@ -1,105 +1,106 @@
 .mountain, .mountain-two, .mountain-three, .mountain-four, .mountain-five {
   position: absolute;
-  margin-left: 20%;
+  margin-left: 5%;
   bottom: 0;
-  border-left: 300px solid transparent;
-  border-right: 300px solid transparent;
-  border-bottom: 360px solid rgb(43, 201, 157);
-  border-bottom: 360px solid #7ac1e4;
+  top: 35vh;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-bottom: 50vw solid rgb(43, 201, 157);
+  border-bottom: 50vw solid #7ac1e4;
   z-index: 1;
 }
 
 .mountain-two {
-  left: 160px;
-  bottom: -40px;
+  left: 20%;
+  top: 30vh;
   opacity: .3;
   z-index: 0;
 }
 
 .mountain-three {
-  left: -120px;
-  bottom: -20px;
+  right: 15%;
+  bottom: -10px;
   opacity: .5;
   z-index: 0;
 }
 
 .mountain-four {
-  left: -200px;
-  bottom: -40px;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
-  border-bottom: 240px solid #7ac1e4;
+  left: -10vw;
+  top: 55vh;
+  border-left: 20vw solid transparent;
+  border-right: 20vw solid transparent;
+  border-bottom: 27vw solid #7ac1e4;
   z-index: 0;
 }
 
 .mountain-five {
-  right: -5px;
-  bottom: -40px;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
-  border-bottom: 240px solid #7ac1e4;
+  right: -10%;
+  top: 50vh;
+  border-left: 20vw solid transparent;
+  border-right: 20vw solid transparent;
+  border-bottom: 27vw solid #7ac1e4;
   z-index: 0;
 }
 
 .mountain-top {
   position: absolute;
-  right: -130px;
-  border-left: 130px solid transparent;
-  border-right: 130px solid transparent;
-  border-bottom: 154px solid #ceeaf6;
+  right: -15vw;
+  border-left: 15vw solid transparent;
+  border-right: 15vw solid transparent;
+  border-bottom: 15vw solid #ceeaf6;
   z-index: 2;
 }
 
 .mountain-cap-1, .mountain-cap-2, .mountain-cap-3 {
   position: absolute;
-  top: 140px;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 50px solid #ceeaf6;
+  top: 28vh;
+  border-left: 4vw solid transparent;
+  border-right: 4vw solid transparent;
+  border-top: 4vw solid #ceeaf6;
 }
 
 .mountain-cap-1 {
-  left: -110px;
+  left: -11vw;
 }
 
 .mountain-cap-2 {
-  left: -50px;
+  left: 4vw;
 }
 
 .mountain-cap-3 {
-  left: 10px;
+  left: -3.5vw;
 }
 
 .cloud, .cloud:before, .cloud:after {
   position: absolute;
-  width: 140px;
-  height: 60px;
+  width: 10vw;
+  height: 5vw;
   background: #fff;
   -webkit-border-radius: 200px / 100px;
   border-radius: 200px / 100px;
 }
 
 .cloud {
-  bottom: 200px;
+  top: 50vh;
   -webkit-animation: cloud 50s infinite linear;
   animation: cloud 50s infinite linear;
 }
 
 @-webkit-keyframes cloud {
   0% {
-    left: -100px;
+    left: -5vw;
   }
   100% {
-    left: 1000px;
+    left: 100vw;
   }
 }
 
 @keyframes cloud {
   0% {
-    left: -100px;
+    left: -5vw;
   }
   100% {
-    left: 1000px;
+    left: 100vw;
   }
 }
 
@@ -116,31 +117,33 @@
 
 .mountain-top-small {
   position: absolute;
-  right: -65px;
-  border-left: 65px solid transparent;
-  border-right: 65px solid transparent;
-  border-bottom: 77px solid #ceeaf6;
+  right: -6vw;
+  border-left: 6vw solid transparent;
+  border-right: 6vw solid transparent;
+  border-bottom: 8vw solid #ceeaf6;
   z-index: 2;
 }
 
 .mountain-cap-1s, .mountain-cap-2s, .mountain-cap-3s {
   position: absolute;
-  top: 70px;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-top: 25px solid #ceeaf6;
+  left: -5vw;
+  top: 15.5vh;
+  border-left: 2vw solid transparent;
+  border-right: 2vw solid transparent;
+  border-top: 2vw solid #ceeaf6;
 }
 
-.mountain-cap-1s {
+
+/*.mountain-cap-1s {
   left: -55px;
-}
+}*/
 
 .mountain-cap-2s {
-  left: -25px;
+  left: -2vw;
 }
 
 .mountain-cap-3s {
-  left: 5px;
+  left: 1vw;
 }
 
 #mountain {
@@ -206,20 +209,20 @@
 }*/
 
 .tree__item {
-  /* border: solid 1px #333; */
-  -webkit-transform-origin: 0 bottom 0;
-  transform-origin: 0 bottom 0;
+  /*border: solid 1px #333;*/
+  /*-webkit-transform-origin: 0 bottom 0;
+  transform-origin: 0 bottom 0;*/
   font-size: 0;
   display: block;
   position: absolute;
-  width: 120px;
+  width: 10vw;
   padding-bottom: 30px;
 }
 
 .tree__branch {
   /* border: solid 1px #3ff; */
-  height: 50px;
-  width: 100%;
+  height: 20vw;
+  width: 10vw;
   display: inline-block;
   position: relative;
   z-index: 1;
@@ -248,7 +251,7 @@
 }
 
 .tree__stamb:before, .tree__stamb:after {
-  width: 2px;
+  width: .2vw;
   content: '';
   display: block;
   position: absolute;
@@ -266,8 +269,6 @@
 .tree__item_1 {
   left: 180px;
   bottom: -9px;
-  -webkit-animation: growup 3.3s 0s linear;
-  animation: growup 3.3s 0s linear;
   z-index: 10;
 }
 
@@ -276,76 +277,74 @@
 }
 
 .tree__item_1 .tree__stamb:before {
-  border-left: 5px solid transparent;
-  border-bottom: 140px solid #759999;
+  border-left: 1vw solid transparent;
+  border-bottom: 15vw solid #759999;
 }
 
 .tree__item_1 .tree__stamb:after {
-  border-right: 5px solid transparent;
-  border-bottom: 140px solid #5d7e7e;
+  border-right: 1vw solid transparent;
+  border-bottom: 15vw solid #5d7e7e;
 }
 
 .tree__item_1 .tree__branch_1 {
-  height: 37px;
+  height: 58vw;
 }
 
 .tree__item_1 .tree__branch_1:before {
-  border-left: 30px solid transparent;
-  border-bottom: 54px solid #92AFAF;
+  border-left: 4vw solid transparent;
+  border-bottom: 8vw solid #92AFAF;
 }
 
 .tree__item_1 .tree__branch_1:after {
-  border-right: 30px solid transparent;
-  border-bottom: 54px solid #678d8d;
+  border-right: 4vw solid transparent;
+  border-bottom: 8vw solid #678d8d;
 }
 
 .tree__item_1 .tree__branch_2 {
-  height: 37px;
+  height: 7vh;
 }
 
 .tree__item_1 .tree__branch_2:before {
-  border-left: 40px solid transparent;
-  border-bottom: 72px solid #92AFAF;
+  border-left: 4.5vw solid transparent;
+  border-bottom: 8.5vw solid #92AFAF;
 }
 
 .tree__item_1 .tree__branch_2:after {
-  border-right: 40px solid transparent;
-  border-bottom: 72px solid #678d8d;
+  border-right: 4.5vw solid transparent;
+  border-bottom: 8.5vw solid #678d8d;
 }
 
 .tree__item_1 .tree__branch_3 {
-  height: 37px;
+  height: 6vh;
 }
 
 .tree__item_1 .tree__branch_3:before {
-  border-left: 50px solid transparent;
-  border-bottom: 90px solid #92AFAF;
+  border-left: 5vw solid transparent;
+  border-bottom: 9vw solid #92AFAF;
 }
 
 .tree__item_1 .tree__branch_3:after {
-  border-right: 50px solid transparent;
-  border-bottom: 90px solid #678d8d;
+  border-right: 5vw solid transparent;
+  border-bottom: 9vw solid #678d8d;
 }
 
 .tree__item_1 .tree__branch_4 {
-  height: 37px;
+  height: 6vh;
 }
 
 .tree__item_1 .tree__branch_4:before {
-  border-left: 60px solid transparent;
-  border-bottom: 108px solid #92AFAF;
+  border-left: 5.5vw solid transparent;
+  border-bottom: 9.5vw solid #92AFAF;
 }
 
 .tree__item_1 .tree__branch_4:after {
-  border-right: 60px solid transparent;
-  border-bottom: 108px solid #678d8d;
+  border-right: 5.5vw solid transparent;
+  border-bottom: 9.5vw solid #678d8d;
 }
 
 .tree__item_2 {
   left: 227px;
   bottom: -10px;
-  -webkit-animation: growup 3.1s 0s linear;
-  animation: growup 3.1s 0s linear;
   z-index: 10;
 }
 
@@ -354,76 +353,74 @@
 }
 
 .tree__item_2 .tree__stamb:before {
-  border-left: 5px solid transparent;
-  border-bottom: 140px solid #607575;
+  border-left: .5vw solid transparent;
+  border-bottom: 13vw solid #607575;
 }
 
 .tree__item_2 .tree__stamb:after {
-  border-right: 5px solid transparent;
-  border-bottom: 140px solid #495959;
+  border-right: .5vw solid transparent;
+  border-bottom: 13vw solid #495959;
 }
 
 .tree__item_2 .tree__branch_1 {
-  height: 37px;
+  height: 5vh;
 }
 
 .tree__item_2 .tree__branch_1:before {
-  border-left: 30px solid transparent;
-  border-bottom: 48px solid #789090;
+  border-left: 3vw solid transparent;
+  border-bottom: 5vw solid #789090;
 }
 
 .tree__item_2 .tree__branch_1:after {
-  border-right: 30px solid transparent;
-  border-bottom: 48px solid #556767;
+  border-right: 3vw solid transparent;
+  border-bottom: 5vw solid #556767;
 }
 
 .tree__item_2 .tree__branch_2 {
-  height: 37px;
+  height: 5vh;
 }
 
 .tree__item_2 .tree__branch_2:before {
-  border-left: 40px solid transparent;
-  border-bottom: 64px solid #789090;
+  border-left: 3.5vw solid transparent;
+  border-bottom: 5.5vw solid #789090;
 }
 
 .tree__item_2 .tree__branch_2:after {
-  border-right: 40px solid transparent;
-  border-bottom: 64px solid #556767;
+  border-right: 3.5vw solid transparent;
+  border-bottom: 5.5vw solid #556767;
 }
 
 .tree__item_2 .tree__branch_3 {
-  height: 37px;
+  height: 5vh;
 }
 
 .tree__item_2 .tree__branch_3:before {
-  border-left: 50px solid transparent;
-  border-bottom: 80px solid #789090;
+  border-left: 4vw solid transparent;
+  border-bottom: 6vw solid #789090;
 }
 
 .tree__item_2 .tree__branch_3:after {
-  border-right: 50px solid transparent;
-  border-bottom: 80px solid #556767;
+  border-right: 4vw solid transparent;
+  border-bottom: 5.5vw solid #556767;
 }
 
 .tree__item_2 .tree__branch_4 {
-  height: 37px;
+  height: 5vh;
 }
 
 .tree__item_2 .tree__branch_4:before {
-  border-left: 60px solid transparent;
-  border-bottom: 96px solid #789090;
+  border-left: 4.5vw solid transparent;
+  border-bottom: 6vw solid #789090;
 }
 
 .tree__item_2 .tree__branch_4:after {
-  border-right: 60px solid transparent;
-  border-bottom: 96px solid #556767;
+  border-right: 4.5vw solid transparent;
+  border-bottom: 6vw solid #556767;
 }
 
 .tree__item_5 {
-  left: 320px;
+  left: 20vw;
   bottom: -12px;
-  -webkit-animation: growup 3.5s 0s linear;
-  animation: growup 3.5s 0s linear;
   z-index: 5;
 }
 
@@ -432,14 +429,14 @@
 }
 
 .tree__item_5 .tree__stamb:before {
-  border-left: 7px solid transparent;
-  border-bottom: 170px solid #302525;
+  border-left: 1vw solid transparent;
+  border-bottom: 16vw solid #302525;
   /*#5f5f5f*/
 }
 
 .tree__item_5 .tree__stamb:after {
-  border-right: 7px solid transparent;
-  border-bottom: 170px solid #231f21;
+  border-right: 1vw solid transparent;
+  border-bottom: 16vw solid #231f21;
   /*grey  #454545*/
 }
 
@@ -448,55 +445,55 @@
 }
 
 .tree__item_5 .tree__branch_1:before {
-  border-left: 30px solid transparent;
-  border-bottom: 60px solid #567a42;
+  border-left: 4.5vw solid transparent;
+  border-bottom: 8.5vw solid #567a42;
 }
 
 .tree__item_5 .tree__branch_1:after {
-  border-right: 30px solid transparent;
-  border-bottom: 60px solid #2e4c27;
+  border-right: 4.5vw solid transparent;
+  border-bottom: 8.5vw solid #2e4c27;
 }
 
 .tree__item_5 .tree__branch_2 {
-  height: 40px;
+  height: 6vh;
 }
 
 .tree__item_5 .tree__branch_2:before {
-  border-left: 40px solid transparent;
-  border-bottom: 80px solid #567a42;
+  border-left: 5vw solid transparent;
+  border-bottom: 9vw solid #567a42;
 }
 
 .tree__item_5 .tree__branch_2:after {
-  border-right: 40px solid transparent;
-  border-bottom: 80px solid #2e4c27;
+  border-right: 5vw solid transparent;
+  border-bottom: 9vw solid #2e4c27;
 }
 
 .tree__item_5 .tree__branch_3 {
-  height: 40px;
+  height: 7vh;
 }
 
 .tree__item_5 .tree__branch_3:before {
-  border-left: 50px solid transparent;
-  border-bottom: 100px solid #567a42;
+  border-left: 5.5vw solid transparent;
+  border-bottom: 9.5vw solid #567a42;
 }
 
 .tree__item_5 .tree__branch_3:after {
-  border-right: 50px solid transparent;
-  border-bottom: 100px solid #2e4c27;
+  border-right: 5.5vw solid transparent;
+  border-bottom: 9.5vw solid #2e4c27;
 }
 
 .tree__item_5 .tree__branch_4 {
-  height: 40px;
+  height: 6vh;
 }
 
 .tree__item_5 .tree__branch_4:before {
-  border-left: 60px solid transparent;
-  border-bottom: 120px solid #567a42;
+  border-left: 6vw solid transparent;
+  border-bottom: 10vw solid #567a42;
 }
 
 .tree__item_5 .tree__branch_4:after {
-  border-right: 60px solid transparent;
-  border-bottom: 120px solid #2e4c27;
+  border-right: 6vw solid transparent;
+  border-bottom: 10vw solid #2e4c27;
 }
 
 .tree__item_6 {
@@ -512,76 +509,74 @@
 }
 
 .tree__item_6 .tree__stamb:before {
-  border-left: 7px solid transparent;
-  border-bottom: 170px solid rgb(53, 34, 33);
+  border-left: 1vw solid transparent;
+  border-bottom: 18vw solid rgb(53, 34, 33);
 }
 
 .tree__item_6 .tree__stamb:after {
-  border-right: 7px solid transparent;
-  border-bottom: 170px solid rgb(41, 31, 35);
+  border-right: 1vw solid transparent;
+  border-bottom: 18vw solid rgb(41, 31, 35);
 }
 
 .tree__item_6 .tree__branch_1 {
-  height: 47px;
+  height: 10vh;
 }
 
 .tree__item_6 .tree__branch_1:before {
-  border-left: 27px solid transparent;
-  border-bottom: 72px solid rgb(56, 112, 24);
+  border-left: 4vw solid transparent;
+  border-bottom: 9vw solid rgb(56, 112, 24);
 }
 
 .tree__item_6 .tree__branch_1:after {
-  border-right: 27px solid transparent;
-  border-bottom: 72px solid rgb(28, 76, 16);
+  border-right: 4vw solid transparent;
+  border-bottom: 9vw solid rgb(28, 76, 16);
 }
 
 .tree__item_6 .tree__branch_2 {
-  height: 47px;
+  height: 7vh;
 }
 
 .tree__item_6 .tree__branch_2:before {
-  border-left: 36px solid transparent;
-  border-bottom: 96px solid rgb(56, 112, 24);
+  border-left: 4.5vw solid transparent;
+  border-bottom: 9.5vw solid rgb(56, 112, 24);
 }
 
 .tree__item_6 .tree__branch_2:after {
-  border-right: 36px solid transparent;
-  border-bottom: 96px solid rgb(28, 76, 16);
+  border-right: 4.5vw solid transparent;
+  border-bottom: 9.5vw solid rgb(28, 76, 16);
 }
 
 .tree__item_6 .tree__branch_3 {
-  height: 47px;
+  height: 7vh;
 }
 
 .tree__item_6 .tree__branch_3:before {
-  border-left: 45px solid transparent;
-  border-bottom: 120px solid rgb(56, 112, 24);
+  border-left: 5vw solid transparent;
+  border-bottom: 10vw solid rgb(56, 112, 24);
 }
 
 .tree__item_6 .tree__branch_3:after {
-  border-right: 45px solid transparent;
-  border-bottom: 120px solid rgb(28, 76, 16);
+  border-right: 5vw solid transparent;
+  border-bottom: 10vw solid rgb(28, 76, 16);
 }
 
 .tree__item_6 .tree__branch_4 {
-  height: 47px;
+  height: 7vh;
 }
 
 .tree__item_6 .tree__branch_4:before {
-  border-left: 54px solid transparent;
-  border-bottom: 144px solid rgb(56, 112, 24);
+  border-left: 5vw solid transparent;
+  border-bottom: 10vw solid rgb(56, 112, 24);
 }
 
 .tree__item_6 .tree__branch_4:after {
-  border-right: 54px solid transparent;
-  border-bottom: 144px solid rgb(28, 76, 16);
+  border-right: 5vw solid transparent;
+  border-bottom: 10vw solid rgb(28, 76, 16);
 }
 
 .tree__item_10 {
   left: 250px;
   bottom: -10px;
-  -webkit-animation: growup 3.4s 0s linear;
-  animation: growup 3.4s 0s linear;
   z-index: 1;
 }
 
@@ -590,77 +585,75 @@
 }
 
 .tree__item_10 .tree__stamb:before {
-  border-left: 10px solid transparent;
-  border-bottom: 250px solid #808080;
+  border-left: 1vw solid transparent;
+  border-bottom: 22vw solid #808080;
 }
 
 .tree__item_10 .tree__stamb:after {
-  border-right: 10px solid transparent;
-  border-bottom: 250px solid #636363;
+  border-right: 1vw solid transparent;
+  border-bottom: 22vw solid #636363;
 }
 
 .tree__item_10 .tree__branch_1 {
-  height: 60px;
+  height: 7vh;
 }
 
 .tree__item_10 .tree__branch_1:before {
-  border-left: 24px solid transparent;
-  border-bottom: 75px solid rgb(73, 57, 85);
+  border-left: 3.5vw solid transparent;
+  border-bottom: 9.5vw solid rgb(73, 57, 85);
 }
 
 .tree__item_10 .tree__branch_1:after {
-  border-right: 24px solid transparent;
-  border-bottom: 75px solid rgb(42, 34, 55);
+  border-right: 3.5vw solid transparent;
+  border-bottom: 9.5vw solid rgb(42, 34, 55);
 }
 
 .tree__item_10 .tree__branch_2 {
-  height: 60px;
+  height: 7vw;
 }
 
 .tree__item_10 .tree__branch_2:before {
-  border-left: 32px solid transparent;
-  border-bottom: 100px solid rgb(73, 57, 85);
+  border-left: 4vw solid transparent;
+  border-bottom: 10vw solid rgb(73, 57, 85);
 }
 
 .tree__item_10 .tree__branch_2:after {
-  border-right: 32px solid transparent;
-  border-bottom: 100px solid rgb(42, 34, 55);
+  border-right: 4vw solid transparent;
+  border-bottom: 10vw solid rgb(42, 34, 55);
 }
 
 .tree__item_10 .tree__branch_3 {
-  height: 60px;
+  height: 7vh;
 }
 
 .tree__item_10 .tree__branch_3:before {
-  border-left: 40px solid transparent;
-  border-bottom: 125px solid rgb(73, 57, 85);
+  border-left: 4.5vw solid transparent;
+  border-bottom: 10.5vw solid rgb(73, 57, 85);
 }
 
 .tree__item_10 .tree__branch_3:after {
-  border-right: 40px solid transparent;
-  border-bottom: 125px solid rgb(42, 34, 55);
+  border-right: 4.5vw solid transparent;
+  border-bottom: 10.5vw solid rgb(42, 34, 55);
 }
 
 .tree__item_10 .tree__branch_4 {
-  height: 60px;
+  height: 7vh;
 }
 
 .tree__item_10 .tree__branch_4:before {
-  border-left: 48px solid transparent;
-  border-bottom: 150px solid rgb(73, 57, 85);
+  border-left: 5vw solid transparent;
+  border-bottom: 11vw solid rgb(73, 57, 85);
   /*lighter color rgb(46, 145, 133)*/
 }
 
 .tree__item_10 .tree__branch_4:after {
-  border-right: 48px solid transparent;
-  border-bottom: 150px solid rgb(42, 34, 55);
+  border-right: 5vw solid transparent;
+  border-bottom: 11vw solid rgb(42, 34, 55);
 }
 
 .tree__item_11 {
   left: 311px;
   bottom: -10px;
-  -webkit-animation: growup 3.1s 0s linear;
-  animation: growup 3.1s 0s linear;
   z-index: 1;
 }
 
@@ -669,69 +662,69 @@
 }
 
 .tree__item_11 .tree__stamb:before {
-  border-left: 10px solid transparent;
-  border-bottom: 250px solid rgb(85, 72, 68);
+  border-left: 1vw solid transparent;
+  border-bottom: 25vw solid rgb(85, 72, 68);
 }
 
 .tree__item_11 .tree__stamb:after {
-  border-right: 10px solid transparent;
-  border-bottom: 250px solid rgb(73, 50, 52);
+  border-right: 1vw solid transparent;
+  border-bottom: 25vw solid rgb(73, 50, 52);
 }
 
 .tree__item_11 .tree__branch_1 {
-  height: 55px;
+  height: 6vh;
 }
 
 .tree__item_11 .tree__branch_1:before {
-  border-left: 24px solid transparent;
-  border-bottom: 75px solid rgb(230, 147, 58);
+  border-left: 4vw solid transparent;
+  border-bottom: 10.5vw solid rgb(230, 147, 58);
 }
 
 .tree__item_11 .tree__branch_1:after {
-  border-right: 24px solid transparent;
-  border-bottom: 75px solid rgb(212, 100, 35);
+  border-right: 4vw solid transparent;
+  border-bottom: 10.5vw solid rgb(212, 100, 35);
 }
 
 .tree__item_11 .tree__branch_2 {
-  height: 55px;
+  height: 7vw;
 }
 
 .tree__item_11 .tree__branch_2:before {
-  border-left: 32px solid transparent;
-  border-bottom: 100px solid rgb(230, 147, 58);
+  border-left: 4.5vw solid transparent;
+  border-bottom: 11vw solid rgb(230, 147, 58);
 }
 
 .tree__item_11 .tree__branch_2:after {
-  border-right: 32px solid transparent;
-  border-bottom: 100px solid rgb(212, 100, 35);
+  border-right: 4.5vw solid transparent;
+  border-bottom: 11vw solid rgb(212, 100, 35);
 }
 
 .tree__item_11 .tree__branch_3 {
-  height: 55px;
+  height: 7vh;
 }
 
 .tree__item_11 .tree__branch_3:before {
-  border-left: 40px solid transparent;
-  border-bottom: 125px solid rgb(230, 147, 58);
+  border-left: 5vw solid transparent;
+  border-bottom: 11.5vw solid rgb(230, 147, 58);
 }
 
 .tree__item_11 .tree__branch_3:after {
-  border-right: 40px solid transparent;
-  border-bottom: 125px solid rgb(212, 100, 35);
+  border-right: 5vw solid transparent;
+  border-bottom: 11.5vw solid rgb(212, 100, 35);
 }
 
 .tree__item_11 .tree__branch_4 {
-  height: 55px;
+  height: 7vh;
 }
 
 .tree__item_11 .tree__branch_4:before {
-  border-left: 48px solid transparent;
-  border-bottom: 150px solid rgb(230, 147, 58);
+  border-left: 5.5vw solid transparent;
+  border-bottom: 12vw solid rgb(230, 147, 58);
 }
 
 .tree__item_11 .tree__branch_4:after {
-  border-right: 48px solid transparent;
-  border-bottom: 150px solid rgb(212, 100, 35);
+  border-right: 5.5vw solid transparent;
+  border-bottom: 12vw solid rgb(212, 100, 35);
 }
 
 .tree__item_12 {
@@ -1017,6 +1010,7 @@
 }
 
 body {
+  z-index: 1;
   background-color: rgb(46, 145, 133);
   /*rgb(127, 196, 191)*/
   margin: 0;
@@ -1045,7 +1039,7 @@ body {
   font-family: "Century Gothic", "HelveticaNeueLT Pro 45 Lt", sans-serif;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
   color: rgb(38, 44, 47);
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   background-color: #d7a477;
   padding: 2%;
@@ -1120,5 +1114,103 @@ body {
   margin-top: -8%;
 }
 
+#tent {
+  display: flex;
+  position: absolute;
+  right: 5%;
+  bottom: -90%;
+}
 
+.side {
+  width: 450px;
+  height: 300px;
+  transform: skew(20deg);
+  background: rgb(236, 189, 181);
+  background: rgb(97, 61, 57);
+}
+
+.front {
+  display: flex;
+  justify-content: center;
+  margin-right: -8%;
+  width: 0;
+  height: 0;
+  border-left: 108px solid transparent;
+  border-right: 108px solid transparent;
+  border-bottom: 300px solid rgb(232, 221, 201);
+  border-bottom: 300px solid rgb(134, 108, 107);
+}
+
+.tent {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.door {
+  position: relative;
+  top: 93px;
+  margin-right: 4%;
+  border-left: 69px solid transparent;
+  border-right: 69px solid transparent;
+  border-bottom: 207px solid rgb(237, 147, 145);
+  border-bottom: 207px solid rgb(50, 50, 50);
+}
+
+.sun {
+  position: absolute;
+  top: 50px;
+  right: 5%;
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid rgb(34, 254, 252);
+}
+
+.sun:nth-child(1) {
+  transform: rotate(30deg);
+}
+
+.sun:nth-child(2) {
+  transform: rotate(60deg);
+}
+
+.sun:nth-child(3) {
+  transform: rotate(90deg);
+}
+
+.sun:nth-child(4) {
+  transform: rotate(120deg);
+}
+
+.sun:nth-child(5) {
+  transform: rotate(150deg);
+}
+
+.sun:nth-child(6) {
+  transform: rotate(180deg);
+}
+
+.sun:nth-child(7) {
+  transform: rotate(210deg);
+}
+
+.sun:nth-child(8) {
+  transform: rotate(240deg);
+}
+
+.sun:nth-child(9) {
+  transform: rotate(270deg);
+}
+
+.sun:nth-child(10) {
+  transform: rotate(300deg);
+}
+
+.sun:nth-child(11) {
+  transform: rotate(330deg);
+}
+
+.sun:nth-child(12) {
+  transform: rotate(360deg);
 }
